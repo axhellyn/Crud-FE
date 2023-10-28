@@ -1,0 +1,128 @@
+*,
+html,
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins';
+}
+
+body{
+  background-color: #303234;
+}
+
+.content {
+  width: 100%;
+  /* height: 100vh; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.content h1 {
+  padding: 10px;
+  margin: 30px 0;
+  color: white;
+}
+
+.container {
+  width: 70%;
+  height: 80%;
+  border: 3px solid #08291b;
+  border-radius: 15px;
+  background: #081b29;
+}
+
+.container .form {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: center;
+  padding: 15px;
+  margin: 20px 0;
+}
+
+.container .form label {
+  color: #f3f4f5;
+  font-size: 20px;
+  width: 70%;
+  text-align: left;
+}
+
+.container .form input {
+  width: 70%;
+  height: 5%;
+  background-color: rgb(216, 216, 216);
+  margin-top: 10px;
+  padding: 10px;
+  border: 2px solid #081b29;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+.container .form input:focus {
+  background-color: #f3f4f5;
+}
+
+.btn-submit {
+  /* font-size: 30px; */
+  width: 70px;
+  border: 2px solid #081b29;
+  border-radius: 5px;
+  padding: 5px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.submit {
+  width: 45%;
+  border-radius: 15px;
+}
+
+.delete {
+  background-color: rgb(255, 89, 89);
+}
+
+.edit {
+  color: black;
+  background-color: rgb(153, 255, 133);
+}
+
+.card-container {
+  width: 70%;
+  min-height: 500px;
+  background-color: #081b29;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 15px;
+  margin: 5% 0;
+  padding: 2%;
+}
+
+.card-container h2{
+    color:#f3f4f5;
+    margin: 10px;
+    text-align: center;
+    padding: 10px;
+}
+
+.card-container .card {
+  width: 90%;
+  height: 30%;
+  border-radius: 15px;
+  margin: 2%;
+  padding: 3%;
+  background-color: white;
+}
+
+.card-container .card li {
+  list-style-type: none;
+  color: #081b29;
+}
+
+.buttons{
+
+}

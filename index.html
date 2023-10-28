@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CRUD</title>
+    <link href="style.css" rel="stylesheet" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+  </head>
+  <body>
+    <header>
+      <nav class="navbar navbar-dark" style="background-color: #081b29;">
+        <div class="container-fluid">
+          <span class="navbar-brand mb-0 h1">Universitas Sriwijaya</span>
+        </div>
+      </nav>
+    </header>
+
+    <section class="content">
+      <h1>Silahkan Tambahkan Daftar Mahasiswa/i</h1>
+      <div class="container">
+        <form id="studentForm">
+          <div class="form">
+            <label for="studentName">Nama</label>
+            <input
+              id="studentName"
+              type="text"
+              class="input"
+              placeholder="Masukkan nama"
+            />
+          </div>
+          <div class="form">
+            <label for="studentNim">NIM</label>
+            <input
+              id="studentNim"
+              type="text"
+              class="input"
+              placeholder="Masukkan NIM"
+            />
+          </div>
+          <div class="form">
+            <label for="studentFaculty">Fakultas</label>
+            <input
+              id="studentFaculty"
+              type="text"
+              class="input"
+              placeholder="Masukkan fakultas"
+            />
+          </div>
+          <div class="form">
+            <label for="studentMajor">Jurusan</label>
+            <input
+              id="studentMajor"
+              type="text"
+              class="input"
+              placeholder="Masukkan jurusan"
+            />
+          </div>
+          <div class="form">
+            <button id="submitButton" class="btn-submit submit">Submit</button>
+          </div>
+        </form>
+      </div>
+
+      <div class="card-container" id="studentData">
+        <h2>Daftar List Mahasiswa/i</h2>
+        <div class="card">
+            <li>RA. Nur Afifah Widyadhana</li>
+            <li>09021182328013</li>
+            <li>Ilmu Komputer</li>
+            <li>Teknik Informatika</li>
+            <div class="buttons">
+              <li></li>
+              <button class="btn-submit edit">Edit</button>
+              <button class="btn-submit delete">Delete</button>
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="data.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
